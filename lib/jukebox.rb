@@ -48,5 +48,10 @@ def run(songs)
   puts "Please enter a command:"
   user_input = gets.strip
   case user_input
-    when list
+    when "list"
+      list(songs)
+    when "play"
+      play(songs)
+    when "help"
+      help(songs)
 end
