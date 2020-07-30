@@ -47,5 +47,6 @@ def run
   while user_input
   puts "Please enter a command:"
   user_input = gets.strip
+  case user_input
   
 end
